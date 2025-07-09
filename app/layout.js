@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<body>
-				<div className="w-full px-20 py-20">{children}</div>
+				<div className="w-full px-20 py-10">{children}</div>
 			</body>
 		</html>
 	);

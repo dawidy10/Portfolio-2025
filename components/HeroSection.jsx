@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { MapPin } from "lucide-react";
+import CallToAction from "./CallToAction";
 export default function HeroSection() {
 	return (
 		<div className="w-full h-[80vh] relative bg-foreground rounded-md overflow-hidden">
@@ -16,6 +17,9 @@ export default function HeroSection() {
 					<div className="flex gap-1">
 						<MapPin fill="white" size={20} />
 						<p>Iași, Romania</p>
+					</div>
+					<div>
+						<CallToAction link="/" />
 					</div>
 				</div>
 			</div>

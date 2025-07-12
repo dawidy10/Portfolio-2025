@@ -41,6 +41,16 @@ export default function ToolsAndTech() {
 					<AvatarFallback>Python</AvatarFallback>
 				</Avatar>
 			</div>
+			<p className="mt-16 text-xl">
+				My go-to tech stack for web development is{" "}
+				<span>
+					<br />
+				</span>
+				<span className="text-accent">NextJS - TailwindCSS - Supabase.</span>
+			</p>
+			<p className="mt-10 text-lg">
+				I also have experience building projects with languages such as Java, Python, C++ and Verilog
+			</p>
 		</div>
 	);
 }

@@ -1,4 +1,5 @@
 import HeroSection from "@/components/HeroSection";
+import ProjectCard from "@/components/ProjectCard";
 export default function Home() {
 	return (
 		<>
@@ -9,6 +10,11 @@ export default function Home() {
 					I’m a computer engineering student who likes to code cool projects and make them look good.
 				</p>
 				<h1 className="text-5xl mt-15">Projects</h1>
+				<div className="flex w-full justify-between gap-4 mt-10">
+					<ProjectCard image="/BlindHopeLogoBlack.svg" tags={["Web Desing", "Logo Design", "Branding"]} />
+					<ProjectCard image="/ApologiaLogoBlack.svg" tags={["Web Desing", "Logo Design", "Branding"]} />
+					<ProjectCard image="/IancuLogoBlack.svg" tags={["Web Desing", "Logo Design", "Branding"]} />
+				</div>
 			</div>
 		</>
 	);

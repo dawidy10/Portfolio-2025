@@ -1,6 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import ProjectCard from "@/components/ProjectCard";
 import CallToAction from "@/components/CallToAction";
+import ToolsAndTech from "@/components/ToolsAndTech";
 export default function Home() {
 	return (
 		<>
@@ -19,6 +20,7 @@ export default function Home() {
 				<div className="w-full text-center mt-20">
 					<CallToAction text="More Projects >" link="/" />
 				</div>
+				<ToolsAndTech />
 			</div>
 		</>
 	);

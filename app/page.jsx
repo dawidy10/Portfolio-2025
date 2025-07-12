@@ -2,6 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import ProjectCard from "@/components/ProjectCard";
 import CallToAction from "@/components/CallToAction";
 import ToolsAndTech from "@/components/ToolsAndTech";
+import Testimonial from "@/components/Testimonial";
 export default function Home() {
 	return (
 		<>
@@ -21,6 +22,12 @@ export default function Home() {
 					<CallToAction text="More Projects >" link="/" />
 				</div>
 				<ToolsAndTech />
+				<h1 className="text-5xl mt-30">What people say</h1>
+				<div className="flex justify-between gap-4 w-full mt-10">
+					<Testimonial />
+					<Testimonial />
+					<Testimonial />
+				</div>
 			</div>
 		</>
 	);

@@ -3,6 +3,8 @@ import ProjectCard from "@/components/ProjectCard";
 import CallToAction from "@/components/CallToAction";
 import ToolsAndTech from "@/components/ToolsAndTech";
 import Testimonial from "@/components/Testimonial";
+import ShowEmail from "@/components/ShowEmail";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 export default function Home() {
 	return (
 		<>
@@ -28,6 +30,20 @@ export default function Home() {
 					<Testimonial />
 					<Testimonial />
 				</div>
+				<h1 className="text-5xl mt-20">Connect with me</h1>
+				<div className="flex mt-10 gap-6">
+					<ShowEmail />
+					<CallToAction text="Book a call >" link="/" />
+					<Avatar className="rounded-none">
+						<AvatarImage src="/Tools/linkedin.svg" />
+						<AvatarFallback>LinkedIn</AvatarFallback>
+					</Avatar>
+					<Avatar>
+						<AvatarImage src="/Tools/github.svg" />
+						<AvatarFallback>Github</AvatarFallback>
+					</Avatar>
+				</div>
+				<p className="mt-30 text-center font-bold">davidburaga 2025</p>
 			</div>
 		</>
 	);

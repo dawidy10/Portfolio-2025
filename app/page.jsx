@@ -1,5 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import ProjectCard from "@/components/ProjectCard";
+import CallToAction from "@/components/CallToAction";
 export default function Home() {
 	return (
 		<>
@@ -14,6 +15,9 @@ export default function Home() {
 					<ProjectCard image="/BlindHopeLogoBlack.svg" tags={["Web Desing", "Logo Design", "Branding"]} />
 					<ProjectCard image="/ApologiaLogoBlack.svg" tags={["Web Desing", "Logo Design", "Branding"]} />
 					<ProjectCard image="/IancuLogoBlack.svg" tags={["Web Desing", "Logo Design", "Branding"]} />
+				</div>
+				<div className="w-full text-center mt-20">
+					<CallToAction text="More Projects >" link="/" />
 				</div>
 			</div>
 		</>

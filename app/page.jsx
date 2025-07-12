@@ -9,13 +9,13 @@ export default function Home() {
 	return (
 		<>
 			<HeroSection />
-			<div className="w-full border-l-1 border-r-1 mt-10 px-14 py-10">
+			<div className="w-full border-l-1 border-r-1 mt-10 px-4 md:px-14 py-10">
 				<h1 className="text-5xl">Hi, I'm David.</h1>
-				<p className="mt-4 text-lg w-1/2">
+				<p className="mt-4 text-lg md:w-1/2">
 					I’m a computer engineering student who likes to code cool projects and make them look good.
 				</p>
 				<h1 className="text-5xl mt-15">Projects</h1>
-				<div className="flex w-full justify-between gap-4 mt-10">
+				<div className="flex flex-col lg:flex-row w-full justify-between gap-10 lg:gap-4 mt-10">
 					<ProjectCard image="/BlindHopeLogoBlack.svg" tags={["Web Desing", "Logo Design", "Branding"]} />
 					<ProjectCard image="/ApologiaLogoBlack.svg" tags={["Web Desing", "Logo Design", "Branding"]} />
 					<ProjectCard image="/IancuLogoBlack.svg" tags={["Web Desing", "Logo Design", "Branding"]} />
@@ -25,13 +25,13 @@ export default function Home() {
 				</div>
 				<ToolsAndTech />
 				<h1 className="text-5xl mt-30">What people say</h1>
-				<div className="flex justify-between gap-4 w-full mt-10">
+				<div className="flex flex-col lg:flex-row justify-between gap-4 w-full mt-10">
 					<Testimonial />
 					<Testimonial />
 					<Testimonial />
 				</div>
 				<h1 className="text-5xl mt-20">Connect with me</h1>
-				<div className="flex mt-10 gap-6">
+				<div className="flex flex-wrap mt-10 gap-6">
 					<ShowEmail />
 					<CallToAction text="Book a call >" link="/" />
 					<Avatar className="rounded-none">

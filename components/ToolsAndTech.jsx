@@ -1,9 +1,9 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 export default function ToolsAndTech() {
 	return (
-		<div className="w-full text-center mt-30">
+		<div className="w-full md:text-center mt-30">
 			<h1 className="text-5xl">Tools & Technologies</h1>
-			<div className="w-full flex flex-wrap justify-center gap-8 mt-16">
+			<div className="w-full flex flex-wrap justify-center gap-4 lg:gap-8 mt-16">
 				<Avatar className="h-10 w-10">
 					<AvatarImage src="/Tools/nextjs.svg" />
 					<AvatarFallback>Next JS</AvatarFallback>
@@ -48,7 +48,7 @@ export default function ToolsAndTech() {
 				</span>
 				<span className="text-accent">NextJS - TailwindCSS - Supabase.</span>
 			</p>
-			<p className="mt-10 text-lg">
+			<p className="mt-10 md:text-lg">
 				I also have experience building projects with languages such as Java, Python, C++ and Verilog
 			</p>
 		</div>

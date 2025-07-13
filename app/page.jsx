@@ -26,9 +26,21 @@ export default function Home() {
 				<ToolsAndTech />
 				<h1 className="text-5xl mt-30">What people say</h1>
 				<div className="flex flex-col lg:flex-row justify-between gap-4 w-full mt-10">
-					<Testimonial />
-					<Testimonial />
-					<Testimonial />
+					<Testimonial
+						image="/clients/apologia.jpg"
+						name="Apologia Reformată"
+						textEN="Recently, we updated our logo and the overall look of our YouTube interface. Everything now looks much more professional from a graphic design perspective. I have everything I need in terms of visuals for showcasing the books, hoodies, printed mugs, and platform-specific logos. We also received help redesigning the logo for the 'Povești cu Cristina' channel. Thank you for the excellent collaboration!"
+						textRO="Recent am schimbat logo-ul și aspectul general al interfeței pe YouTube. Pare totul mai profesionist din punct de vedere grafic. Am tot ce îmi trebuie din punct de vedere grafic pentru o masă de prezentare a cărților, hanorace, căni printate, logo-uri pentru toate platformele. De asemenea am primit ajutor în refacerea logoului pentru canalul 'Povești cu Cristina'. Mulțumim pentru colaborarea excelentă!"
+					/>
+					<Testimonial
+						image="/clients/refugiu.jpg"
+						name="Refugiu Pentru Suflet"
+						textEN="Our collaboration with David was excellent. We shared our vision and our mission, and he immediately understood the direction we wanted to take. In a very short time, he showed us several logo options, each clearly reflecting our values. After choosing the design we liked most, David came up with various color ideas and shades that would best represent us visually. His professionalism and creativity helped us strengthen our brand identity and present ourselves to our audience in a clear and appealing way."
+						textRO="Colaborarea noastră cu David a fost una excelentă. I-am prezentat viziunea și scopul asociației noastre, iar el a înțeles imediat direcția pe care o dorim. Într-un timp foarte scurt, ne-a prezentat mai multe variante de logo, fiecare reflectând în mod clar valorile noastre. După ce am ales designul care ne-a plăcut cel mai mult, David a venit cu diverse idei de culori și nuanțe care să ne reprezinte vizual cât mai bine. Profesionalismul și creativitatea lui ne-au ajutat să ne consolidăm identitatea de brand și să ne prezentăm într-un mod coerent și atractiv publicului nostru."
+					/>
+					<Testimonial image="/clients/apologia.jpg" name="Apologia Reformată" />
+					{/* <Testimonial /> */}
+					{/* <Testimonial /> */}
 				</div>
 				<h1 className="text-5xl mt-20">Connect with me</h1>
 				<div className="flex flex-wrap mt-10 gap-6">

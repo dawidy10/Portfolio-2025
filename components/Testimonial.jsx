@@ -7,26 +7,33 @@ import {
 	CardHeader,
 	CardTitle,
 } from "@/components/ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-export default function Testimonial() {
+export default function Testimonial({ image, name, textEN, textRO }) {
 	return (
 		<Card className="w-full">
 			<CardHeader className="flex items-center gap-4">
 				<Avatar className="w-10 h-10">
-					<AvatarImage src="https://github.com/shadcn.png" />
-					<AvatarFallback>CN</AvatarFallback>
+					<AvatarImage src={image} />
+					<AvatarFallback>{name[0]}</AvatarFallback>
 				</Avatar>
 				<CardTitle className="font-medium">
-					<p className="text-xl">Daniel White</p>
+					<p className="text-xl">{name}</p>
 				</CardTitle>
 			</CardHeader>
 			<CardContent>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales tincidunt ornare. Maecenas
-					vel purus nec purus rutrum finibus. Pellentesque quis sagittis ligula. Pellentesque tempor eget
-					tellus pharetra placerat. Nullam hendrerit est suscipit, fringilla leo quis, placerat est. Nulla
-					egestas enim at dui fringilla, sit amet facilisis eros consequat. Vestibulum ut porta magna.
-				</p>
+				<Tabs defaultValue="english">
+					<TabsList>
+						<TabsTrigger value="english">EN</TabsTrigger>
+						<TabsTrigger value="romanian">RO</TabsTrigger>
+					</TabsList>
+					<TabsContent value="english">
+						<p>{textEN}</p>
+					</TabsContent>
+					<TabsContent value="romanian">
+						<p>{textRO}</p>
+					</TabsContent>
+				</Tabs>
 			</CardContent>
 		</Card>
 	);

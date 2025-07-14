@@ -19,7 +19,7 @@ export default function HeroSection() {
 						<p>Iași, Romania</p>
 					</div>
 					<div>
-						<CallToAction text="See my work" link="/" />
+						<CallToAction text="See my work" link="/projects" />
 					</div>
 				</div>
 			</div>

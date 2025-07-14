@@ -16,12 +16,12 @@ export default function Home() {
 				</p>
 				<h1 className="text-5xl mt-15">Projects</h1>
 				<div className="flex flex-col lg:flex-row w-full justify-between gap-10 lg:gap-4 mt-10">
+					<ProjectCard image="/VesselLogoBlack.svg" tags={["Web Development", "Web Desing", "Logo Design"]} />
 					<ProjectCard image="/BlindHopeLogoBlack.svg" tags={["Web Desing", "Logo Design", "Branding"]} />
 					<ProjectCard image="/ApologiaLogoBlack.svg" tags={["Web Desing", "Logo Design", "Branding"]} />
-					<ProjectCard image="/IancuLogoBlack.svg" tags={["Web Desing", "Logo Design", "Branding"]} />
 				</div>
 				<div className="w-full text-center mt-20">
-					<CallToAction text="More Projects >" link="/" />
+					<CallToAction text="More Projects >" link="/projects" />
 				</div>
 				<ToolsAndTech />
 				<h1 className="text-5xl mt-30">What people say</h1>
@@ -45,7 +45,7 @@ export default function Home() {
 				<h1 className="text-5xl mt-20">Connect with me</h1>
 				<div className="flex flex-wrap mt-10 gap-6">
 					<ShowEmail />
-					<CallToAction text="Book a call >" link="/" />
+					<CallToAction text="Book a call >" link="https://calendly.com/davidburaga10/discutie-1-la-1" />
 					<Avatar className="rounded-none">
 						<AvatarImage src="/Tools/linkedin.svg" />
 						<AvatarFallback>LinkedIn</AvatarFallback>

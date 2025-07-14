@@ -18,8 +18,8 @@ export default function Home() {
 				<h1 className="text-5xl mt-15">Projects</h1>
 				<div className="flex flex-col lg:flex-row w-full justify-between gap-10 lg:gap-4 mt-10">
 					<ProjectCard image="/VesselLogoBlack.svg" tags={["Web Development", "Web Desing", "Logo Design"]} />
-					<ProjectCard image="/BlindHopeLogoBlack.svg" tags={["Web Desing", "Logo Design", "Branding"]} />
-					<ProjectCard image="/ApologiaLogoBlack.svg" tags={["Web Desing", "Logo Design", "Branding"]} />
+					<ProjectCard image="/ApologiaLogoBlack.svg" tags={["Branding", "Logo Design"]} />
+					<ProjectCard image="/BlindHopeLogoBlack.svg" tags={["Game Development", "Logo Design"]} />
 				</div>
 				<div className="w-full text-center mt-20">
 					<CallToAction text="More Projects >" link="/projects" />

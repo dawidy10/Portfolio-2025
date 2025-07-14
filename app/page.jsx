@@ -5,6 +5,7 @@ import ToolsAndTech from "@/components/ToolsAndTech";
 import Testimonial from "@/components/Testimonial";
 import ShowEmail from "@/components/ShowEmail";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import Link from "next/link";
 export default function Home() {
 	return (
 		<>
@@ -46,14 +47,24 @@ export default function Home() {
 				<div className="flex flex-wrap mt-10 gap-6">
 					<ShowEmail />
 					<CallToAction text="Book a call >" link="https://calendly.com/davidburaga10/discutie-1-la-1" />
-					<Avatar className="rounded-none">
-						<AvatarImage src="/Tools/linkedin.svg" />
-						<AvatarFallback>LinkedIn</AvatarFallback>
-					</Avatar>
-					<Avatar>
-						<AvatarImage src="/Tools/github.svg" />
-						<AvatarFallback>Github</AvatarFallback>
-					</Avatar>
+					<Link href="https://www.linkedin.com/in/david-buraga-aba007365/">
+						<Avatar className="rounded-none">
+							<AvatarImage src="/Tools/linkedin.svg" />
+							<AvatarFallback>LI</AvatarFallback>
+						</Avatar>
+					</Link>
+					<Link href="https://github.com/dawidy10">
+						<Avatar>
+							<AvatarImage src="/Tools/github.svg" />
+							<AvatarFallback>GH</AvatarFallback>
+						</Avatar>
+					</Link>
+					<Link href="https://www.youtube.com/@davidwd10">
+						<Avatar className="rounded-none">
+							<AvatarImage src="/Tools/youtube.svg" />
+							<AvatarFallback>YT</AvatarFallback>
+						</Avatar>
+					</Link>
 				</div>
 				<p className="mt-30 text-center font-bold">davidburaga 2025</p>
 			</div>

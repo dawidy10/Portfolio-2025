@@ -39,7 +39,12 @@ export default function Home() {
 						textEN="Our collaboration with David was excellent. We shared our vision and our mission, and he immediately understood the direction we wanted to take. In a very short time, he showed us several logo options, each clearly reflecting our values. After choosing the design we liked most, David came up with various color ideas and shades that would best represent us visually. His professionalism and creativity helped us strengthen our brand identity and present ourselves to our audience in a clear and appealing way."
 						textRO="Colaborarea noastră cu David a fost una excelentă. I-am prezentat viziunea și scopul asociației noastre, iar el a înțeles imediat direcția pe care o dorim. Într-un timp foarte scurt, ne-a prezentat mai multe variante de logo, fiecare reflectând în mod clar valorile noastre. După ce am ales designul care ne-a plăcut cel mai mult, David a venit cu diverse idei de culori și nuanțe care să ne reprezinte vizual cât mai bine. Profesionalismul și creativitatea lui ne-au ajutat să ne consolidăm identitatea de brand și să ne prezentăm într-un mod coerent și atractiv publicului nostru."
 					/>
-					<Testimonial image="/clients/apologia.jpg" name="Apologia Reformată" />
+					<Testimonial
+						textEN="David’s work has been truly valuable for me and my business. Thanks to the website he created, my prospects can get to know me in just a few minutes and even reach out to collaborate. Everything is tailored to my taste, yet modern and up to date, which helps me present a professional image to those interested in what I do. I wholeheartedly recommend his services if you want to stand out online and reach high-end clients!"
+						textRO="Munca lui David a fost de un real folos pentru mine și afacerea mea. Cu ajutorul site-ului creat de el, prospectii mei au ocazia sa ma cunoasca in doar cateva minute si chiar sa ma contacteze in vederea colaborării. Totul este făcut pe gustul meu, dar si actual, ceea ce imi creează o imagine de profesionist în fața celor interesați de activitatea pe care o desfășor. Recomand cu încredere serviciile lui dacă doriți să arătați cât mai bine în online și să ajungeți la clienți de lux!"
+						image="/clients/anto.jpg"
+						name="Antonela Sticea"
+					/>
 					{/* <Testimonial /> */}
 					{/* <Testimonial /> */}
 				</div>

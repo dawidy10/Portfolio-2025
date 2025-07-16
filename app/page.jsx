@@ -7,16 +7,14 @@ import ShowEmail from "@/components/ShowEmail";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Link from "next/link";
 
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-
 export default function Home() {
 	return (
 		<>
 			<HeroSection />
 			<div className="w-full border-l-1 border-r-1 mt-10 px-4 md:px-14 py-10">
-				<h1 className="text-5xl">Hi, I'm David.</h1>
+				<h1 className="text-5xl">Hello there!</h1>
 				<p className="mt-4 text-lg md:w-1/2">
-					I’m a computer engineering student who likes to code cool projects and make them look good.
+					I’m David, a computer engineering student who likes to code cool projects and make them look good.
 				</p>
 				<h1 className="text-5xl mt-15">Projects</h1>
 				<div className="flex flex-col lg:flex-row w-full justify-between gap-10 lg:gap-4 mt-10">

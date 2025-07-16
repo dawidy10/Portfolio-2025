@@ -56,7 +56,7 @@ export default function Home() {
 					/>
 
 					<div className="flex items-center gap-8 md:gap-4">
-						<p className="text-lg">Ready to work with me?</p>
+						<p className="text-lg">Need help with a project?</p>
 						<CallToAction text="Book a call >" link="https://calendly.com/davidburaga10/discutie-1-la-1" />
 					</div>
 				</div>

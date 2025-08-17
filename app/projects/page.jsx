@@ -6,7 +6,11 @@ export default function Projects() {
 			<div className="grid gird-cols-1 lg:grid-cols-3 gap-x-8 gap-y-14 w-full mt-20">
 				<ProjectCard image="/VesselLogoBlack.svg" tags={["Web Development", "Web Desing", "Logo Design"]} />
 				<ProjectCard image="/BlindHopeLogoBlack.svg" tags={["Web Desing", "Logo Design", "Branding"]} />
-				<ProjectCard image="/ApologiaLogoBlack.svg" tags={["Web Desing", "Logo Design", "Branding"]} />
+				<ProjectCard
+					image="/ApologiaLogoBlack.svg"
+					tags={["Web Desing", "Logo Design", "Branding"]}
+					link="apologia-reformata"
+				/>
 				<ProjectCard image="/IancuLogoBlack.svg" tags={["Web Desing", "Logo Design", "Branding"]} />
 			</div>
 			<p className="mt-30 text-center font-bold">davidburaga 2025</p>

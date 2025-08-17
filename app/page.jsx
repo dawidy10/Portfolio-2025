@@ -19,7 +19,11 @@ export default function Home() {
 				<h1 className="text-5xl mt-15">Projects</h1>
 				<div className="flex flex-col lg:flex-row w-full justify-between gap-10 lg:gap-4 mt-10">
 					<ProjectCard image="/VesselLogoBlack.svg" tags={["Web Development", "Web Desing", "Logo Design"]} />
-					<ProjectCard image="/ApologiaLogoBlack.svg" tags={["Branding", "Logo Design"]} />
+					<ProjectCard
+						image="/ApologiaLogoBlack.svg"
+						tags={["Branding", "Logo Design"]}
+						link="apologia-reformata"
+					/>
 					<ProjectCard image="/BlindHopeLogoBlack.svg" tags={["Game Development", "Logo Design"]} />
 				</div>
 				<div className="w-full text-center mt-20">

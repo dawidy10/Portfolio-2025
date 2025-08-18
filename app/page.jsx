@@ -59,7 +59,7 @@ export default function Home() {
 
 					<div className="flex items-center gap-8 md:gap-4">
 						<p className="text-lg">Need help with a project?</p>
-						<CallToAction text="Book a call >" link="https://calendly.com/davidburaga10/discutie-1-la-1" />
+						<CallToAction text="Let's talk >" link="https://calendly.com/davidburaga10/discutie-1-la-1" />
 					</div>
 				</div>
 				<h1 className="text-5xl mt-20">Connect with me</h1>

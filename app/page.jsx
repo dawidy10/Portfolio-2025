@@ -24,7 +24,11 @@ export default function Home() {
 						tags={["Branding", "Logo Design"]}
 						link="apologia-reformata"
 					/>
-					<ProjectCard image="/BlindHopeLogoBlack.svg" tags={["Game Development", "Logo Design"]} />
+					<ProjectCard
+						image="/BlindHopeLogoBlack.svg"
+						tags={["Game Development", "Logo Design"]}
+						link="blind-hope"
+					/>
 				</div>
 				<div className="w-full text-center mt-20">
 					<CallToAction text="More Projects >" link="/projects" />

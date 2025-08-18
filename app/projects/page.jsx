@@ -11,7 +11,11 @@ export default function Projects() {
 					tags={["Web Desing", "Logo Design", "Branding"]}
 					link="apologia-reformata"
 				/>
-				<ProjectCard image="/IancuLogoBlack.svg" tags={["Web Desing", "Logo Design", "Branding"]} />
+				<ProjectCard
+					image="/IancuLogoBlack.svg"
+					tags={["Web Desing", "Logo Design", "Branding"]}
+					link="blind-hope"
+				/>
 			</div>
 			<p className="mt-30 text-center font-bold">davidburaga 2025</p>
 		</>

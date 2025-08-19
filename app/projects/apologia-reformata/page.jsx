@@ -14,16 +14,23 @@ export default function Project() {
 				</div>
 			</div>
 			<p className="text-lg md:text-xl mt-8 leading-normal">
-				For this project, I worked on developing a <b>new logo</b> and a refreshed <b>brand identity.</b>{" "}
-				Alongside the visual elements, I also created a <b>brand guide</b> that includes the color palette,
-				typography choices, and a series of mockups designed to ensure consistency across all brand-related
-				materials.
+				For this project, I worked on developing a <b>new logo</b> and a refreshed <b>brand identity.</b> The
+				process of designing a logo is always a challenge, because it’s not only about how it looks, but also
+				about the <b>emotions</b> it creates. A good logo should tell a story, reflecting the values, style, and
+				personality behind the project or creator. While the content itself remains the primary reason people
+				follow a creator, the overall brand identity—including the logo—plays an important role in shaping how
+				that content is perceived. People often feel a stronger connection and sense of trust toward creators
+				<b>whose visual identity resonates with them</b>, making the logo and other design elements a key factor
+				in building recognition, engagement and a lasting impression.
 			</p>
 			<img src="/Apologia/table_stand.jpg" alt="" />
 			<p className="text-lg md:text-xl py-8 leading-normal">
-				<b>The main challenge</b> for this project was to capture the essence of the <b>existing brand</b>{" "}
-				through visual elements that feel <b>instantly recognizable,</b> while also shaping a more polished and{" "}
-				<b>professional identity.</b>
+				For this project, my task was to capture the essence of an <b>pre-existing brand</b> through visual
+				elements that are not only easily recognizable but also convey a more professional and polished image.
+				This involved carefully selecting <b>colors, typography, and visuals</b> that reflect the brand’s
+				identity, while making sure everything works together to create a strong, memorable impression. The goal
+				was to refine the brand’s visuals so they reflect its core character authentically, yet present it in a
+				more polished and professional manner.
 			</p>
 			<div className="flex flex-col lg:flex-row gap-8 w-full">
 				<div className="lg:w-[60%] overflow-hidden lg:h-100">
@@ -36,7 +43,9 @@ export default function Project() {
 			<p className="text-lg md:text-xl py-8 leading-normal">
 				The logo went through several iterations, and by incorporating the <b>feedback</b> I received, I was
 				able to refine it into a final version. I really enjoyed working on this project and was excited to see
-				how everything would come together in the end.
+				how everything would come together in the end. Alongside the visual elements, I also created a{" "}
+				<b>brand guide</b> that includes the color palette, typography choices, and a series of mockups designed
+				to ensure consistency across all brand-related materials.
 			</p>
 			<div className="flex lg:flex-row flex-col gap-8 w-full">
 				<div className="lg:w-[40%] overflow-hidden lg:h-100">

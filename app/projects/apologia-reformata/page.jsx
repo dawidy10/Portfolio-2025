@@ -9,7 +9,6 @@ export default function Project() {
 			<div className="flex flex-col items-center gap-2 mt-4">
 				<h1 className="text-3xl">Branding project for Apologia Reformată</h1>
 				<div className="flex mt-4">
-					<Badge className="mr-2 opacity-50">Web Desing</Badge>
 					<Badge className="mr-2 opacity-50">Logo Design</Badge>
 					<Badge className="mr-2 opacity-50">Branding</Badge>
 				</div>

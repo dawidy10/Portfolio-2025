@@ -1,4 +1,18 @@
 import "./globals.css";
+import "./globals.css";
+import { PT_Serif } from "next/font/google";
+import { DM_Sans } from "next/font/google";
+
+const ptSerif = PT_Serif({
+	subsets: ["latin"], // include ce subseturi vrei
+	weight: ["400", "700"], // specifică greutăţile folosite
+	display: "swap",
+});
+const dmSans = DM_Sans({
+	subsets: ["latin"], // include ce subseturi vrei
+	weight: ["400", "500", "700"], // specifică greutăţile folosite
+	display: "swap",
+});
 
 export const metadata = {
 	title: "Create Next App",
@@ -14,3 +28,5 @@ export default function RootLayout({ children }) {
 		</html>
 	);
 }
+export { dmSans };
+export { ptSerif };

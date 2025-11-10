@@ -4,6 +4,16 @@ import { MapPin } from "lucide-react";
 import CallToAction from "./CallToAction";
 import { dmSans } from "@/app/layout";
 import { ptSerif } from "@/app/layout";
+import { LogoCarousel } from "./LogoCarousel";
+
+const logos = [
+	{ src: "/ApologiaLogoBlack2.svg", alt: "Brand 1" },
+	{ src: "/SharkLogoBlack2.svg", alt: "Brand 2" },
+	{ src: "/GenesisLogoBlack.svg", alt: "Brand 3" },
+	{ src: "/TransformatLogoBlack.svg", alt: "Brand 5" },
+	{ src: "/AloraLogoBlack.svg", alt: "Brand 4" },
+];
+
 export default function HeroSection() {
 	return (
 		<div className="w-full h-[80vh] relative border-1 rounded-md overflow-hidden text-center">
@@ -36,6 +46,7 @@ export default function HeroSection() {
 					<CallToAction text="See my work" link="/projects" />
 				</div>
 			</div>
+			<LogoCarousel logos={logos} />
 		</div>
 	);
 }

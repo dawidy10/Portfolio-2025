@@ -5,6 +5,7 @@ import CallToAction from "./CallToAction";
 import { dmSans } from "@/app/layout";
 import { ptSerif } from "@/app/layout";
 import { LogoCarousel } from "./LogoCarousel";
+import Link from "next/link";
 
 const logos = [
 	{ src: "/ApologiaLogoBlack2.svg", alt: "Brand 1" },
@@ -17,6 +18,20 @@ const logos = [
 export default function HeroSection() {
 	return (
 		<div className="w-full h-[80vh] relative border-1 rounded-md overflow-hidden text-center">
+			<div className="absolute top-10 z-10 right-10 flex gap-8">
+				<Link href="https://www.linkedin.com/in/david-buraga-aba007365/">
+					<Avatar className="rounded-none">
+						<AvatarImage src="/Tools/linkedin.svg" />
+						<AvatarFallback>LI</AvatarFallback>
+					</Avatar>
+				</Link>
+				<Link href="https://github.com/dawidy10">
+					<Avatar>
+						<AvatarImage src="/Tools/github.svg" />
+						<AvatarFallback>GH</AvatarFallback>
+					</Avatar>
+				</Link>
+			</div>
 			{/* <Image alt="HeroBG" fill objectFit="cover" src="/home-bg.jpg" className="opacity-20 md:opacity-40" /> */}
 			{/* <div className="absolute z-10 left-10 bottom-10 flex flex-col md:flex-row items-start md:items-center gap-4">
 				<Avatar className="w-40 h-40">

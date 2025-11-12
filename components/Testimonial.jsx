@@ -13,7 +13,7 @@ export default function Testimonial({ image, name, textEN, textRO }) {
 	return (
 		<Card className="w-full">
 			<CardHeader className="flex items-center gap-4">
-				<Avatar className="w-10 h-10">
+				<Avatar className="w-12 h-12">
 					<AvatarImage src={image} />
 					<AvatarFallback>{name[0]}</AvatarFallback>
 				</Avatar>
@@ -28,10 +28,10 @@ export default function Testimonial({ image, name, textEN, textRO }) {
 						<TabsTrigger value="romanian">RO</TabsTrigger>
 					</TabsList>
 					<TabsContent value="english">
-						<p>{textEN}</p>
+						<p className="text-lg mt-4">{textEN}</p>
 					</TabsContent>
 					<TabsContent value="romanian">
-						<p>{textRO}</p>
+						<p className="text-lg mt-4">{textRO}</p>
 					</TabsContent>
 				</Tabs>
 			</CardContent>

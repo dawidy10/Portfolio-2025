@@ -70,13 +70,13 @@ export default function Project() {
 				GitHub.
 			</p>
 			<img src="/BlindHope/uml.png" alt="" />
-			<div className="mt-10 w-full">
+			{/* <div className="mt-10 w-full">
 				<h1 className="text-4xl lg:text-5xl">Need help with a project?</h1>
 				<div className="flex flex-wrap mt-10 gap-6">
 					<ShowEmail />
 					<CallToAction text="Book a call >" link="https://calendly.com/davidburaga10/discutie-1-la-1" />
 				</div>
-			</div>
+			</div> */}
 			<p className="mt-30 text-center font-bold">davidburaga 2025</p>
 		</div>
 	);

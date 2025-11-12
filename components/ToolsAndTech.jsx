@@ -2,8 +2,8 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { ptSerif } from "@/app/layout";
 export default function ToolsAndTech() {
 	return (
-		<div className="w-[55vw] mt-50 text-center">
-			<h1 className={`text-5xl ${ptSerif.className}`}>Tools & Technologies</h1>
+		<div className="md:w-[55vw] mt-50 md:text-center">
+			<h1 className={`text-4xl md:text-5xl ${ptSerif.className}`}>Tools & Technologies</h1>
 			<div className="w-full flex flex-wrap gap-4 lg:gap-8 mt-14 justify-center">
 				<Avatar className="h-10 w-10">
 					<AvatarImage src="/Tools/cpp.svg" />
@@ -49,7 +49,7 @@ export default function ToolsAndTech() {
 				</span>
 				<span className="text-accent">NextJS - TailwindCSS - Supabase.</span>
 			</p> */}
-			<p className="text-xl mt-14">
+			<p className="text-lg md:text-xl mt-14">
 				Through coursework and academic projects, I have developed a solid foundation in programming and
 				software development using <b>C, C++, Java, Python, SQL, Verilog</b>. On the web development side, I’ve
 				worked on projects built with <b>React and Next.js</b>, using <b>Supabase</b> for backend services and{" "}

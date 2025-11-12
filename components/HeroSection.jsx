@@ -51,8 +51,8 @@ export default function HeroSection() {
 				</div>
 			</div> */}
 			<div className="flex flex-col gap-2 md:gap-1 items-center h-full justify-center">
-				<h1 className={`text-5xl ${ptSerif.className}`}>David Buraga</h1>
-				<p className={`text-2xl ${dmSans.className}`}>Developer & Designer</p>
+				<h1 className={`text-4xl md:text-5xl ${ptSerif.className}`}>David Buraga</h1>
+				<p className={`text-lg md:text-2xl ${dmSans.className}`}>Developer & Designer</p>
 				{/* <div className="flex gap-1">
 					<MapPin fill="black" size={20} />
 					<p className="text-xl">Iași, Romania</p>

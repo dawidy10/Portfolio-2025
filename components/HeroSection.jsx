@@ -57,7 +57,7 @@ export default function HeroSection() {
 					<MapPin fill="black" size={20} />
 					<p className="text-xl">Iași, Romania</p>
 				</div> */}
-				<div className="mt-4">
+				<div className="mt-4 z-10">
 					<CallToAction text="See my work" link="/projects" />
 				</div>
 			</div>

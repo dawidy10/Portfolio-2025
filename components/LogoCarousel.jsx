@@ -2,7 +2,7 @@
 
 export function LogoCarousel({ logos }) {
 	return (
-		<div className="w-full flex justify-center absolute z-10 bottom-10">
+		<div className="w-full flex justify-center absolute z-9 bottom-10">
 			<div className="overflow-hidden w-[80vw] md:w-[50vw] mt-30 py-8">
 				<div className="flex animate-marquee">
 					{logos.concat(logos).map((logo, idx) => (

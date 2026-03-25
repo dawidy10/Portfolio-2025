@@ -21,10 +21,13 @@ export default function Project() {
         <p className="text-lg md:text-xl mt-8 leading-normal">
           Users can select any passage using a <b>real-time Bible selector</b> powered by the
           GetBible API, write personal notes and reflections, and build a journal feed over time.
-          Each entry can be shared with a <b>unique token</b>, making it easy to share a specific
-          reflection without exposing the entire journal.
+          Entries can be <b>tagged and searched. </b> Filtering by one or more tags narrows the feed
+          instantly and a live search scans titles and notes in real time, all client-side without
+          additional requests. Each entry can also be shared with a <b>unique token</b>, making it
+          easy to share a specific reflection without exposing the entire journal.
         </p>
         <img src="/Intentional/api.png" className="mt-8" />
+        <img src="/Intentional/search.jpg" className="mt-8 md:w-100" />
         <p className="text-lg md:text-xl mt-8 leading-normal">
           Making it a PWA was an intentional choice from the start. A journaling app is something
           you reach for in quiet moments - on your phone, on your commute, before bed.{' '}

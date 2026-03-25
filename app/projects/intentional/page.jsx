@@ -1,4 +1,5 @@
 import { Badge } from '@/components/ui/badge'
+import Link from 'next/link'
 
 export default function Project() {
   return (
@@ -42,6 +43,20 @@ export default function Project() {
           <img src="/Intentional/new.png" className="max-h-100" />
           <img src="/Intentional/post.png" className="max-h-100" />
         </div>
+        <p className="text-lg md:text-xl mt-14 leading-normal">
+          Try it at{' '}
+          <Link
+            className="text-accent underline"
+            href="https://intentional-journal.netlify.app/"
+            target="blank"
+          >
+            intentional-journal.netlify.app
+          </Link>
+          . On <b>iOS</b>, open the link in Safari, tap the share button, and select{' '}
+          <b>Add to Home Screen.</b> On <b>Android</b>, open it in Chrome and tap <b>Install</b>{' '}
+          when prompted.
+        </p>
+        <p className="mt-30 text-center font-bold">davidburaga 2025</p>
       </div>
     </div>
   )
